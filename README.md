@@ -23,3 +23,4 @@
   <a href="https://www.linkedin.com/in/rafael-mensen-9462641b7/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
   
 </div>
+<rect xmlns="http://www.w3.org/2000/svg" data-testid="card-bg" x="0.5" y="0.5" rx="4.5" height="99%" stroke="#4F0000" width="466" fill="#ffffff00" stroke-opacity="1"/>
