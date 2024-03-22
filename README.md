@@ -22,6 +22,6 @@
 
 <div> 
   <a href="https://github.com/rafaelmensen">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=rafaelmensen&show_icons=true&include_all_commits=true&count_private=true"/>  
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=rafaelmensen&theme=dark&show_icons=true"/>  
   </a>
 </div>
