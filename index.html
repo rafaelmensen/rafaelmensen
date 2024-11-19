@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Materiais</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Materiais</h1>
+        <div id="materiais" class="materiais-container">
+            <div class="material">
+                <label>Material 1:</label>
+                <button class="select-metros" data-material="Material 1" data-preco="2">Selecionar Metros</button>
+                <span class="material-correspondente">Material Correspondente 1: R$ 5,00 por metro</span>
+                <span class="resultado" data-material="Material 1"></span>
+            </div>
+            <div class="material">
+                <label>Material 2:</label>
+                <button class="select-metros" data-material="Material 2" data-preco="2">Selecionar Metros</button>
+                <span class="material-correspondente">Material Correspondente 2: R$ 5,00 por metro</span>
+                <span class="resultado" data-material="Material 2"></span>
+            </div>
+            <div class="material">
+                <label>Material 3:</label>
+                <button class="select-metros" data-material="Material 3" data-preco="2">Selecionar Metros</button>
+                <span class="material-correspondente">Material Correspondente 3: R$ 5,00 por metro</span>
+                <span class="resultado" data-material="Material 3"></span>
+            </div>
+            <div class="material">
+                <label>Material 4:</label>
+                <button class="select-metros" data-material="Material 4" data-preco="2">Selecionar Metros</button>
+                <span class="material-correspondente">Material Correspondente 4: R$ 5,00 por metro</span>
+                <span class="resultado" data-material="Material 4"></span>
+            </div>
+            <div class="material">
+                <label>Material 5:</label>
+                <button class="select-metros" data-material="Material 5" data-preco="2">Selecionar Metros</button>
+                <span class="material-correspondente">Material Correspondente 5: R$ 5,00 por metro</span>
+                <span class="resultado" data-material="Material 5"></span>
+            </div>
+            <div class="material">
+                <label>Material 6:</label>
+                <button class="select-metros" data-material="Material 6" data-preco="2">Selecionar Metros</button>
+                <span class="material-correspondente">Material Correspondente 6: R$ 5,00 por metro</span>
+                <span class="resultado" data-material="Material 6"></span>
+            </div>
+            <div class="material">
+                <label>Material 7:</label>
+                <button class="select-metros" data-material="Material 7" data-preco="2">Selecionar Metros</button>
+                <span class="material-correspondente">Material Correspondente 7: R$ 5,00 por metro</span>
+                <span class="resultado" data-material="Material 7"></span>
+            </div>
+            <div class="material">
+                <label>Material 8:</label>
+                <button class="select-metros" data-material="Material 8" data-preco="2">Selecionar Metros</button>
+                <span class="material-correspondente">Material Correspondente 8: R$ 5,00 por metro</span>
+                <span class="resultado" data-material="Material 8"></span>
+            </div>
+            <div class="material">
+                <label>Material 9:</label>
+                <button class="select-metros" data-material="Material 9" data-preco="2">Selecionar Metros</button>
+               
+                <span class="material-correspondente">Material Correspondente 9: R$ 5,00 por metro</span>
+                <span class="resultado" data-material="Material 9"></span>
+            </div>
+            <div class="material">
+                <label>Material 10:</label>
+                <button class="select-metros" data-material="Material 10" data-preco="2">Selecionar Metros</button>
+                <span class="material-correspondente">Material Correspondente 10: R$ 5,00 por metro</span>
+                <span class="resultado" data-material="Material 10"></span>
+            </div>
+            <div class="material">
+                <label>Material 11:</label>
+                <button class="select-metros" data-material="Material 11" data-preco="2">Selecionar Metros</button>
+                <span class="material-correspondente">Material Correspondente 11: R$ 5,00 por metro</span>
+                <span class="resultado" data-material="Material 11"></span>
+            </div>
+        </div>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Selecione a quantidade de metros</h2>
+                <div id="quantidade-metros"></div>
+                <button id="confirmar-selecao">Confirmar</button>
+            </div>
+        </div>
+        <button id="gerar-pdf" style="display:none;">Gerar PDF</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
